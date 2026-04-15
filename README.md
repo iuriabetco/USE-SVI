@@ -118,4 +118,4 @@ author = {Iuria Betco and Cláudia M. Viana and Jorge Rocha}
 ```
 
 ## Credits
-<p align="center"> <img src="png/logo.png" alt="mosaic" width="800"> </p>
+<p align="center"> <img src="png/logo.png" alt="mosaic" width="600"> </p>
