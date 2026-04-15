@@ -116,3 +116,6 @@ url = {https://www.sciencedirect.com/science/article/pii/S2215016126000026},
 author = {Iuria Betco and Cláudia M. Viana and Jorge Rocha}
 }
 ```
+
+## Credits
+<p align="center"> <img src="png/logo.png" alt="mosaic" width="800"> </p>
