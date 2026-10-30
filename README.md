@@ -87,7 +87,7 @@ This step combines the four images captured at each sampling location into a sin
   - Panorama name
   - Number of images stitched
 
-By default, the panorama stitching uses confidence threshold of `1.0`. Users can adjust this value using the optional `--confidence` parameter.
+By default, panorama stitching uses a confidence threshold of `1.0`. This value can be adjusted using the optional `--confidence` parameter.
 
 Run this step with:
 
