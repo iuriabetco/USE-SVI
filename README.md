@@ -1,5 +1,5 @@
 # Google Street View Imagery Extraction Pipeline 
-**Current version:** v1.1.0  
+**Current version:** v1.2.0  
 **Release date:** March 2026  
 
 USE-SVI (Urban Sampling & Extraction of Street View Imagery) is a Python pipeline that samples road networks at fixed intervals, generates Google Street View URLs (0°, 90°, 180°, 270°), automatically downloads images using Selenium without relying on official APIs, stitches images into panoramas, and exports structured outputs (CSV, XLSX) that can be directly imported into GIS environments for further spatial analysis.
@@ -65,8 +65,7 @@ The metadata are saved in a CSV file `streetview_urls_with_status_data.csv` loca
 
 <p align="center"> <img src="png/image_3.png" alt="mosaic" width="600"> </p>
 
-
-The parameter `&pitch=0` is automatically appended to ensure a horizontal camera view (0°). This value can be modified if needed.
+The pitch parameter controls the vertical camera angle and is set to `0` by default to ensure a horizontal view. This value can be modified if needed using the optional `--pitch` parameter.
 
 Run this step with:
 ```
@@ -87,6 +86,8 @@ This step combines the four images captured at each sampling location into a sin
   - Capture date (when available)
   - Panorama name
   - Number of images stitched
+
+By default, the panorama stitching uses confidence threshold of `1.0`. Users can adjust this value using the optional `--confidence` parameter.
 
 Run this step with:
 
