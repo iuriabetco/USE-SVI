@@ -65,7 +65,7 @@ The metadata are saved in a CSV file `streetview_urls_with_status_data.csv` loca
 
 <p align="center"> <img src="png/image_3.png" alt="mosaic" width="600"> </p>
 
-The pitch parameter controls the vertical camera angle and is set to `0` by default to ensure a horizontal view. This value can be modified if needed using the optional `--pitch` parameter.
+The pitch parameter controls the vertical camera angle and is set to `0` by default to ensure a horizontal view. This value can be adjusted using the optional `--pitch` parameter.
 
 Run this step with:
 ```
